@@ -48,6 +48,7 @@ This project allows users to submit ratings for registered stores and provides r
 ---
 
 ## Project Structure
+```bash 
 Roxiler_FullStack/
 ├── backend/
 │ ├── config/database.js
@@ -62,10 +63,7 @@ Roxiler_FullStack/
 │ └── src/App.js
 ├── package.json
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -79,12 +77,10 @@ npm install
 node init-db.js  # Initialize database
 node index.js    # Start backend server
 2. Frontend
-bash
-Copy
-Edit
 cd frontend
 npm install
 npm start        # Start React development server
+```
 Note: Ensure PostgreSQL is running and .env variables are correctly set.
 
 Form Validations
